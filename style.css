@@ -1,0 +1,95 @@
+
+*{
+    margin: 0 auto;
+    background-color: #ffcccc;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form select{
+    margin-bottom: 10px;
+    border:none;
+    background-color: rgb(232, 240, 254);
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.login-form input{
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 200px;
+    background-color: rgb(232, 240, 254);
+}
+
+.login-form button{
+    border: none;
+    border-radius: 25px;
+    background-color: chartreuse;
+    width: 220px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.login-form button:hover{
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    justify-content: space-around;
+}
+
+header a{
+
+    padding: 10px 10px 0 10px;
+
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+}
+
+header a:hover{
+    background-color: #44acac;
+    color: #ffcccc;
+
+}
+
+body p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+.false{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.true{
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+.true:hover{
+    background-color: #82ad56;
+}
+
+.false:hover{
+    background-color: #7e3838;
+}
